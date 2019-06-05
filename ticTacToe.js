@@ -1,6 +1,5 @@
-console.log("sanity check");
-let game = ['-' , '-' , '-' , '-' , '-' , '-' , '-' , '-' , '-']
-let player1 = 'O';
+let game = ['-' , '-' , '-' , '-' , '-' , '-' , '-' , '-' , '-'];
+let turn = 'O';
 
 function placeMarker(boxNumber) {
     const box = document.getElementById('box'+boxNumber);
