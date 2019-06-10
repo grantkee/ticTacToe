@@ -4,7 +4,7 @@ body {
     font-family: Avenir;
 }
 
-.container {
+.board {
     display: grid;
     grid-template: repeat( 3, 1fr) / repeat( 3, 1fr);
     margin: auto;
